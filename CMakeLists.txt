@@ -133,10 +133,10 @@ if(PAL_BUILD_GFX9)
 endif()
 
 # METROHASH
-set(PAL_METROHASH_PATH ${PROJECT_SOURCE_DIR}/src/util/imported/metrohash CACHE PATH "Specify the path to the MetroHash project.")
+set(PAL_METROHASH_PATH ${PROJECT_SOURCE_DIR}/../MetroHash CACHE PATH "Specify the path to the MetroHash project.")
 
 # CWPACK
-set(PAL_CWPACK_PATH ${PROJECT_SOURCE_DIR}/src/util/imported/cwpack CACHE PATH "Specify the path to the CWPack project.")
+set(PAL_CWPACK_PATH ${PROJECT_SOURCE_DIR}/../CWPack CACHE PATH "Specify the path to the CWPack project.")
 
 # VAM
 set(PAL_VAM_PATH ${PROJECT_SOURCE_DIR}/src/core/imported/vam CACHE PATH "Specify the path to the VAM project.")

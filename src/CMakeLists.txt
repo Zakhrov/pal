@@ -22,7 +22,7 @@
  #  SOFTWARE.
  #
  #######################################################################################################################
-add_library(pal STATIC "")
+add_library(pal SHARED "")
 install(TARGETS pal DESTINATION ${CMAKE_SOURCE_DIR}/lib/${CMAKE_BUILD_TYPE}${TARGET_ARCHITECTURE_BITS})
 
 ### Compiler Options ###################################################################################################
